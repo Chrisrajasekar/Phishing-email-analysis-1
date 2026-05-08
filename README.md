@@ -469,59 +469,8 @@ EmailEvents
 
 ---
 
-## Project Structure
 
-```
-norton-phish-analysis/
-│
-├── README.md                          ← This file
-│
-├── tools/
-│   ├── phishing_analyzer.py           ← Full analysis script (headers, URLs, IOCs)
-│   └── ioc_extractor.py               ← Extract IOCs from raw .eml files
-│
-├── iocs/
-│   └── PHI-2023-1105-001.json         ← Structured IOC file for this case
-│
-├── screenshots/
-│   ├── phishing_email_raw.png         ← Original phishing email screenshot
-│   └── analysis_report.html          ← Annotated analysis dashboard
-│
-└── evidence/
-    └── (raw .eml files go here — do not commit live phishing emails publicly)
-```
 
-### Running the Tools
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/norton-phish-analysis
-cd norton-phish-analysis
 
-# No external dependencies — uses Python stdlib only
-python tools/phishing_analyzer.py
 
-# To analyse your own .eml file:
-python tools/ioc_extractor.py /path/to/email.eml
-```
-
----
-
-## Skills Demonstrated
-
-- ✅ Email header decomposition (From, Envelope-From, Received chain)
-- ✅ SPF / DKIM / DMARC interpretation and bypass detection
-- ✅ Microsoft 365 tenant abuse identification
-- ✅ URL shortener safe expansion techniques
-- ✅ VirusTotal API integration (Python)
-- ✅ AbuseIPDB API integration (Python)
-- ✅ WHOIS / domain intelligence investigation
-- ✅ Social engineering and psychological tactic analysis
-- ✅ IOC extraction and structured documentation
-- ✅ Microsoft Sentinel KQL detection rule authoring
-- ✅ Incident response recommendation playbook
-- ✅ MITRE ATT&CK technique mapping (T1566.001)
-
----
-
-*Maintained by: SOC Analyst Portfolio Project | For educational and portfolio purposes only*

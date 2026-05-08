@@ -1,10 +1,12 @@
+
 # 🛡️ Phishing Email Analysis — Norton Antivirus Brand Impersonation
 
 > **Case ID:** PHI-2023-1105-001  
 > **Classification:** Phishing / Scareware / Brand Impersonation  
 > **Verdict:** ⛔ MALICIOUS  
-> **Analyst Level:** SOC Tier-2 / Senior Analyst  
 
+ 
+<img width="879" height="876" alt="Screenshot 2026-05-08 at 1 15 42 AM" src="https://github.com/user-attachments/assets/657945b1-cd8e-4b2f-86f4-8d9d0d4abaa2" />
 ---
 
 ## 📋 Table of Contents
